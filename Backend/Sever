@@ -1,0 +1,17 @@
+server/
+  package.json
+  Dockerfile
+  .env.example
+  knexfile.js
+  migrations/
+    20250812_create_tables.js      <- (nếu dùng knex migrate)
+  src/
+    index.js
+    db.js
+    auth.js
+    routes/
+      auth.js
+      ads.js
+      wallet.js
+      withdraw.js
+      admin.js
